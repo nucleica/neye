@@ -1,0 +1,12 @@
+{
+  "tasks": {
+    "eye": "deno run --allow-read --allow-run --allow-sys --allow-net main.ts",
+    "cli": "deno run --allow-net cli.ts"
+  },
+  "version": "0.0.1",
+  "name": "@nucleic/neye",
+  "imports": {
+    "@nucleic/sna": "jsr:@nucleic/sna@^0.5.1",
+    "@std/assert": "jsr:@std/assert@1"
+  }
+}

@@ -13,7 +13,7 @@ SUBNET=$1
 #      It's often more reliable than ICMP pings, especially for devices that block them (like iPhones).
 # -T4: Aggressive timing template. Makes the scan faster.
 
-sudo nmap -sn -PR -T4 "$SUBNET" | awk '
+sudo nmap -sn -PR -PE -T3 "$SUBNET" | awk '
   # This block is executed when a line contains "Nmap scan report for".
   /Nmap scan report for/ {
     # Store the IP address. If the line contains a hostname in parentheses, store that too.

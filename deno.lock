@@ -1,6 +1,7 @@
 {
   "version": "5",
   "specifiers": {
+    "jsr:@nucleic/mem@0.3": "0.3.0",
     "jsr:@nucleic/sna@~0.5.2": "0.5.2",
     "jsr:@std/assert@1": "1.0.13",
     "jsr:@std/cli@^1.0.18": "1.0.19",
@@ -15,6 +16,9 @@
     "jsr:@std/streams@^1.0.9": "1.0.9"
   },
   "jsr": {
+    "@nucleic/mem@0.3.0": {
+      "integrity": "4950242d2d2b47ef48b84a49b6b714d1e6fa44ecd6a97f5cab6482f7ef772f85"
+    },
     "@nucleic/sna@0.5.2": {
       "integrity": "a9c81de7dc54c69328cb9369d78db3ef2ca5122153078b0ce15ae691a85f68e0",
       "dependencies": [
@@ -74,6 +78,7 @@
   },
   "workspace": {
     "dependencies": [
+      "jsr:@nucleic/mem@0.3",
       "jsr:@nucleic/sna@~0.5.2",
       "jsr:@std/assert@1"
     ]

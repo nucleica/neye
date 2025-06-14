@@ -3,7 +3,7 @@
     "eye": "deno run --allow-read --allow-write --allow-run --allow-sys --allow-net main.ts",
     "cli": "deno run --allow-net cli.ts"
   },
-  "version": "0.0.1",
+  "version": "0.1.0",
   "name": "@nucleic/neye",
   "exports": "./index.ts",
   "imports": {

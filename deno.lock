@@ -1,7 +1,7 @@
 {
   "version": "5",
   "specifiers": {
-    "jsr:@nucleic/sna@~0.5.1": "0.5.1",
+    "jsr:@nucleic/sna@~0.5.2": "0.5.2",
     "jsr:@std/assert@1": "1.0.13",
     "jsr:@std/cli@^1.0.18": "1.0.19",
     "jsr:@std/encoding@^1.0.10": "1.0.10",
@@ -15,8 +15,8 @@
     "jsr:@std/streams@^1.0.9": "1.0.9"
   },
   "jsr": {
-    "@nucleic/sna@0.5.1": {
-      "integrity": "7f343f0bf77f1d66904375917a23df37522fabf9f846b34d3e5aba603cf6ca94",
+    "@nucleic/sna@0.5.2": {
+      "integrity": "a9c81de7dc54c69328cb9369d78db3ef2ca5122153078b0ce15ae691a85f68e0",
       "dependencies": [
         "jsr:@std/http"
       ]
@@ -74,7 +74,7 @@
   },
   "workspace": {
     "dependencies": [
-      "jsr:@nucleic/sna@~0.5.1",
+      "jsr:@nucleic/sna@~0.5.2",
       "jsr:@std/assert@1"
     ]
   }

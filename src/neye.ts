@@ -74,6 +74,12 @@ export class Neye {
 
     const conf = readConfig();
     log("<(o)>", `v${conf?.version ?? "error"}`);
+    const a = this.mem.table("device_activity");
+    a?.where({ gone: null }, {}).forEach((act) => {
+      const ati = act as unknown as DeviceActivity;
+
+      ati.id && a.remove(ati.id);
+    });
 
     setInterval(() => this.scan(), 60000 * 4);
   }

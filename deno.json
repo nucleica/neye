@@ -1,6 +1,6 @@
 {
   "tasks": {
-    "eye": "deno run --allow-read --allow-write --allow-run --allow-sys --allow-net main.ts",
+    "init": "deno run --allow-read --allow-write --allow-run --allow-sys --allow-net main.ts",
     "cli": "deno run --allow-net cli.ts"
   },
   "version": "0.1.0",
@@ -9,6 +9,7 @@
   "imports": {
     "@nucleic/mem": "jsr:@nucleic/mem@^0.3.0",
     "@nucleic/sna": "jsr:@nucleic/sna@^0.5.2",
+    "@nucleic/venous": "jsr:@nucleic/venous@^0.1.0",
     "@std/assert": "jsr:@std/assert@1"
   }
 }

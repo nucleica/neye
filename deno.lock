@@ -3,6 +3,8 @@
   "specifiers": {
     "jsr:@nucleic/mem@0.3": "0.3.0",
     "jsr:@nucleic/sna@~0.5.2": "0.5.2",
+    "jsr:@nucleic/turtle@~0.5.1": "0.5.1",
+    "jsr:@nucleic/venous@0.1": "0.1.0",
     "jsr:@std/assert@1": "1.0.13",
     "jsr:@std/cli@^1.0.18": "1.0.19",
     "jsr:@std/encoding@^1.0.10": "1.0.10",
@@ -23,6 +25,15 @@
       "integrity": "a9c81de7dc54c69328cb9369d78db3ef2ca5122153078b0ce15ae691a85f68e0",
       "dependencies": [
         "jsr:@std/http"
+      ]
+    },
+    "@nucleic/turtle@0.5.1": {
+      "integrity": "7f802f7e20a2d76a927c0de9e4c7d00bce78cf06537bee2d99e392389d5f1ec3"
+    },
+    "@nucleic/venous@0.1.0": {
+      "integrity": "7b786a7df7ef969016d15aa837009a5ca56b4e64dd6ff6ac489bebf5ccbbc3cb",
+      "dependencies": [
+        "jsr:@nucleic/turtle"
       ]
     },
     "@std/assert@1.0.13": {
@@ -80,6 +91,7 @@
     "dependencies": [
       "jsr:@nucleic/mem@0.3",
       "jsr:@nucleic/sna@~0.5.2",
+      "jsr:@nucleic/venous@0.1",
       "jsr:@std/assert@1"
     ]
   }

@@ -1,0 +1,5 @@
+[{
+  "name": "nucleic-neye",
+  "exec": "/home/dev/.deno/bin/deno task init",
+  "cwd": "/home/dev/sources/neye"
+}]

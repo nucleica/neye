@@ -1,4 +1,4 @@
-import { Server } from "./server.ts";
+import { Server } from "@nucleic/venous";
 
 import { commandSync, log, readConfig } from "@nucleic/sna";
 import { Database } from "@nucleic/mem";
@@ -45,8 +45,8 @@ export class Neye {
     },
   });
 
-  constructor() {
-    this.server.serve(9430);
+  constructor(port: number) {
+    this.server.serve(port);
 
     this.server.addRoute({
       handler: () =>
